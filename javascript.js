@@ -33,7 +33,7 @@ skylink.on('incomingMessage', function(message, peerId, peerInfo, isSelf) {
   addMessage(user + ': ' + message.content, className);
 });
 
-skylink.init('62ab516d-76cc-49ae-931d-d31507ec07c5');
+skylink.init('key from skylink');
 
 
 function setName() {
